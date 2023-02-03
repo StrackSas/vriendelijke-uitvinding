@@ -1,0 +1,60 @@
+header{
+    font-family: Helvetica, Arial;
+    background-color: #111935;
+    color: white;
+    max-width: 1900px;
+    max-height: 125px;
+    padding: 10px;
+}
+nav{
+    color: white;
+}
+li{
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    color: white;    
+    background-color: rgb(105, 66, 194);
+}
+li:hover{
+        background-color: red;
+        border-style: none;
+}
+footer{
+    font-family: Helvetica, Arial;
+    background-color: #111935;
+    color: white;    
+    max-width: 1900px;
+    max-height: 100px;    
+    padding-top: 10px;padding-right: 10px;padding-bottom: 10px; padding-left: 1600px;
+}
+body{
+    font-family: Helvetica, Arial; 
+    background-color: #4dade4;
+    color: white;    
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+div{
+    font-family: Helvetica, Arial;
+    background-color: #8fc5e4;
+    color: black;    
+    max-width: 1600px;
+    max-height: 1000px;
+    padding: 10px;
+    margin-top: 25px;margin-right: 75px;margin-bottom: 25px; margin-left: 125px;
+}
+form{
+    font-family: Helvetica, Arial;
+    border-style: double;
+    border-width: thin;
+    border-color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+button:active{
+    background-color: #111935;color: white;border-radius: 4px; box-shadow: inset 2px 2px 5px #111935;
+}
